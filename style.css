@@ -1,0 +1,144 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+.big_container{
+  background-color: blue;
+  color:gold;
+  padding:20px;
+}
+.nav{
+
+ display: flex;
+ justify-content: space-around;
+  
+}
+.links{
+  display: flex;
+  gap:2rem;
+  list-style: none;
+}
+a{
+  color:gold;
+  text-decoration: none;
+}
+.contents{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap:6rem;
+  padding: 40px;
+}
+.content_2{
+display:flex;
+justify-content: center;
+background-color: grey;
+align-items: center;
+height: 200px;
+width:400px;
+
+}
+.content_1{
+  display: flex;
+  flex-direction: column;
+  width:300px;
+  margin:4px;
+  margin-left: 50px;
+  gap:6px;
+}
+.bt{
+  width:100px;
+  background-color: lightblue;
+  height:30px;
+  border: 2px black;
+  border-radius: 10px;
+}
+.button{
+  display: flex;
+  justify-content: left;
+}
+/* header part finished */
+
+/* starting of middle section */
+.mid_section{
+  margin-top: 30px;
+}
+.title{
+  display:flex;
+  justify-content: center;
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+.blank{
+  border: 4px solid blue;
+  height:100px;
+  width:100px;
+  border-radius:10px;
+}
+.infos{
+  margin-top: 10px;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap:2rem;
+}
+.lists{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+/* 
+end of mid section */
+
+/*start of footer*/
+
+.upper_div{
+  display:flex;
+  flex-direction: column;
+  height:300px;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+  margin-top: 100px;
+}
+.arthur{
+  width: 30%;
+  display: flex;
+  justify-content: right;
+}
+.footer_content{
+  width:500px;
+}
+.end_section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:300px;
+}
+.inside_end{
+  display: flex;
+  background-color: aqua;
+  padding:30px;
+  width:50%;
+  justify-content: space-around;
+  color:white;
+  border:1px solid aqua;
+  border-radius: 14px;
+}
+.footer_button{
+  width:80px;
+  border:2px solid white;
+  border-radius:15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copyright{
+  height:50px;
+  background-color: darkolivegreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
